@@ -23,20 +23,28 @@ Misclassifications and their details if applicable.
 1. Open a terminal.
 2. Navigate to the project folder.
 3. Use this command:
-
+```python
 python check_images.py --dir <directory_with_images> --arch <model> --dogfile dognames.txt
+```
 Example:
-
+```python
 python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
+```
 
 ## Results
 The project generates a detailed table showing:
-* Total images processed.
-* Number of images correctly identified as dogs.
-* Accuracy in identifying specific dog breeds.
-* Misclassifications and their details if applicable.
+* Number of Images
+* Number of Dog Images
+* Number of Not-a-Dog Images
+* % Correct Dogs
+* % Correct Breed
+* % Correct Not-a-Dog
+* % Match
 
+Additionally, the table includes counts for each model (ResNet, AlexNet, VGG) for metrics such as the number of images, the number of correct dogs, and the number of correct breeds.
+
+Misclassified dogs and misclassified breeds are also printed if specified.
 
 ## Acknowledgments
-* This project was completed with support from the AWS AI/ML Scholarship Program Nanodegree.
+* This project was completed with support from the AWS AI/ML Scholarship Program Nanodegree - AI Programming with Python.
 * Special thanks to program mentors and contributors for their assistance.
