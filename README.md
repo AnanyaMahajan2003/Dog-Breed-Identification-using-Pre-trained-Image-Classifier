@@ -19,10 +19,10 @@ This project, part of the AWS AI/ML Scholarship Program Nanodegree - AI Programm
 2. Navigate to the project folder.
 3. Use this command:
 ```bash
-python check_images.py --dir <directory_with_images> --arch <model> --dogfile dognames.txt
+python check_images.py --dir <directory_with_images> --arch <model> --dogfile dognames.txt```bash
 Example:
 ```bash
-python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
+python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt```bash
 
 ## Results
 The project generates a detailed table showing:
