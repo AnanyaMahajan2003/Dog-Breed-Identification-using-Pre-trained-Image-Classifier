@@ -15,21 +15,27 @@ This project, part of the AWS AI/ML Scholarship Program Nanodegree - AI Programm
 9. dognames.txt: Lists all known dog names for comparison.
 
 ## How to Run
-1. Open a terminal.
-2. Navigate to the project folder.
-3. Use this command:
-```bash
-python check_images.py --dir <directory_with_images> --arch <model> --dogfile dognames.txt```bash
-Example:
-```bash
-python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt```bash
-
-## Results
 The project generates a detailed table showing:
 Total images processed.
 Number of images correctly identified as dogs.
 Accuracy in identifying specific dog breeds.
 Misclassifications and their details if applicable.
+1. Open a terminal.
+2. Navigate to the project folder.
+3. Use this command:
+
+python check_images.py --dir <directory_with_images> --arch <model> --dogfile dognames.txt
+Example:
+
+python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
+
+## Results
+The project generates a detailed table showing:
+* Total images processed.
+* Number of images correctly identified as dogs.
+* Accuracy in identifying specific dog breeds.
+* Misclassifications and their details if applicable.
+
 
 ## Acknowledgments
 * This project was completed with support from the AWS AI/ML Scholarship Program Nanodegree.
